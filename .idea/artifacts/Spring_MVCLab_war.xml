@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Spring MVCLab:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Spring MVCLab</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-mvc-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Spring MVCLab:war exploded" />
+    </root>
+  </artifact>
+</component>
